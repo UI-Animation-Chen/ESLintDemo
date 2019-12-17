@@ -8,7 +8,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "node main.js"
+    "test": "node main.mjs"
   },
   "author": "czf",
   "license": "ISC"
