@@ -8,5 +8,5 @@ const code = `
 
 const ast = recast.parse(code);
 
-console.log(ast);
+console.log(ast.program.body[0]);
 

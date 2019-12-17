@@ -2,7 +2,7 @@
   "name": "eslintdemo",
   "version": "1.0.0",
   "description": "eslint demo.",
-  "main": "main.js",
+  "main": "main.mjs",
   "dependencies": {
     "recast": "^0.18.5"
   },
