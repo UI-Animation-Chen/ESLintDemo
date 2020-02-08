@@ -1,15 +1,28 @@
 {
   "name": "eslintdemo",
   "version": "1.0.0",
-  "description": "eslint demo.",
-  "main": "main.mjs",
-  "dependencies": {
-    "recast": "^0.18.5"
-  },
-  "devDependencies": {},
+  "description": "eslint demo",
+  "main": "main.js",
   "scripts": {
-    "test": "node main.mjs"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UI-Animation-Chen/ESLintDemo.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
   "author": "czf",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UI-Animation-Chen/ESLintDemo/issues"
+  },
+  "homepage": "https://github.com/UI-Animation-Chen/ESLintDemo#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-plugin-czf": "file:eslint-plugin-czf",
+    "eslint-plugin-react": "^7.18.3"
+  },
+  "dependencies": {}
 }
