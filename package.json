@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/UI-Animation-Chen/ESLintDemo#readme",
   "devDependencies": {
+    "@nib/eslint-plugin-mrnbaseutils": "file:../mrn-base-utils-eslint",
     "eslint": "^6.8.0",
     "eslint-plugin-czf": "file:eslint-plugin-czf",
     "eslint-plugin-react": "^7.18.3"
