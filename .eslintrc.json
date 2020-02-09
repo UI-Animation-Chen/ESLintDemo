@@ -23,6 +23,8 @@
         "czf"
     ],
     "rules": {
-        "czf/all-text-need-font-if-one-has": 2
+        "czf/all-text-need-font-if-one-has": 2,
+        "czf/navigation-header-not-null": 2,
+        "czf/border-value-should-be-integer": 2
     }
 }

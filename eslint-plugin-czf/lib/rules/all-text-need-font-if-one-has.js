@@ -25,7 +25,7 @@ module.exports = {
         let isTextStyleDefinedFont = false;
 
         // ast从上向下第一次遍历
-        function up2downCheck (node) {
+        let up2downCheck = (node) => {
             if (isTextStyleDefinedFont) {
                 return;
             }
@@ -35,7 +35,7 @@ module.exports = {
         };
 
         // ast从下向上第二次遍历
-        function down2upCheck (node) {
+        let down2upCheck = (node) => {
             if (isTextStyleDefinedFont) {
                 if (node.name.name === 'Text') {
                     let styleIndex = node.attributes.findIndex((item) => item.name.name === 'style');
