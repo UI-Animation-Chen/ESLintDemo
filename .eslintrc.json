@@ -1,11 +1,13 @@
 {
+    "parser": "@typescript-eslint/parser",
     "env": {
         "es6": true,
         "node": true
     },
     "extends": [
         "eslint:recommended",
-        "plugin:react/recommended"
+        "plugin:react/recommended",
+        "plugin:@hfe/mrnbaseutils/recommended"
     ],
     "globals": {
         "Atomics": "readonly",
@@ -20,13 +22,11 @@
     },
     "plugins": [
         "react",
-        "czf",
-        "@nib/mrnbaseutils"
+        "czf"
     ],
     "rules": {
         "czf/all-text-need-font-if-one-has": 2,
         "czf/navigation-header-not-null": 2,
-        "czf/border-value-should-be-integer": 2,
-        "@nib/mrnbaseutils/imagebackground-attrs-rule": 2
+        "czf/border-value-should-be-integer": 2
     }
 }
