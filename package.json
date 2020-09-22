@@ -4,7 +4,8 @@
   "description": "eslint demo",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --ext .ts,.tsx,.js,.jsx ./src"
   },
   "repository": {
     "type": "git",
@@ -20,12 +21,12 @@
   },
   "homepage": "https://github.com/UI-Animation-Chen/ESLintDemo#readme",
   "devDependencies": {
-    "@hfe/eslint-plugin-mrnbaseutils": "file:../mrn-base-utils-eslint",
-    "@typescript-eslint/parser": "^2.21.0",
     "eslint": "^6.8.0",
-    "eslint-plugin-czf": "file:eslint-plugin-czf",
     "eslint-plugin-react": "^7.18.3",
-    "typescript": "^3.8.3"
+    "typescript": "^3.8.3",
+    "@typescript-eslint/parser": "^2.21.0",
+    "@hfe/eslint-plugin-mrnbaseutils": "file:../mrn-base-utils-eslint",
+    "eslint-plugin-czf": "file:eslint-plugin-czf"
   },
   "dependencies": {}
 }

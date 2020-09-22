@@ -4,11 +4,6 @@
         "es6": true,
         "node": true
     },
-    "extends": [
-        "eslint:recommended",
-        "plugin:react/recommended",
-        "plugin:@hfe/mrnbaseutils/recommended"
-    ],
     "globals": {
         "Atomics": "readonly",
         "SharedArrayBuffer": "readonly"
@@ -20,13 +15,17 @@
         "ecmaVersion": 2018,
         "sourceType": "module"
     },
+    "extends": [
+        "plugin:@hfe/mrnbaseutils/recommended"
+    ],
     "plugins": [
-        "react",
         "czf"
     ],
     "rules": {
         "czf/all-text-need-font-if-one-has": 2,
         "czf/navigation-header-not-null": 2,
-        "czf/border-value-should-be-integer": 2
+        "czf/border-value-should-be-integer": 2,
+        "czf/doraemon-http-request-params-rule": 1
     }
 }
+
